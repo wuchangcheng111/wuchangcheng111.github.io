@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>吴长城的网站</title>
+  
+  <subtitle>世界如此之大</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://wuchangcheng111.github.io/"/>
+  <updated>2020-06-29T12:19:46.761Z</updated>
+  <id>https://wuchangcheng111.github.io/</id>
+  
+  <author>
+    <name>吴长城</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>k210</title>
+    <link href="https://wuchangcheng111.github.io/2020/06/29/k210/"/>
+    <id>https://wuchangcheng111.github.io/2020/06/29/k210/</id>
+    <published>2020-06-29T08:55:40.000Z</published>
+    <updated>2020-06-29T12:19:46.761Z</updated>
+    
+    <content type="html"><![CDATA[<p>我买的是MAIX-GO这块开发板 [ MAIXGO ] </p><p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsCAMAAABOo35HAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAC9UExURVlZWdPT07KysmRkZIWFhfT09JmZmWZmZm9vb39/fxkZGUxMTDMzM3p6epCQkKamppubm729venp6cjIyN7e3tbW1s/Pz8LCwnx8fLS0tFZWVoiIiI+Pj6GhoeTk5Glpabu7u93d3evr66CgoJSUlKqqqsnJyeDg4Hd3d8PDw+Xl5bi4uNHR0dvb26Ojo6urq+fn51hYWDg4OCgoKHBwcK2traenp0FBQe7u7vHx8U5OTre3t8zMzHV1df///7GrnpQAAAA/dFJOU///////////////////////////////////////////////////////////////////////////////////AI4mfBcAAAUGSURBVHja7NoJb6M4GMZxY0NCD64kve/pMZ2d3Z297+X7f6zFNmBAMUXa6URl/q9UJSWPUPzrizFWRUlNLgEBWGCBBRZYYEEAFlhggQUWWBCABRZYYIEFFgRggQUWWGCBBQFYYIEFFlhgQQAWWGCBBRZYEIAFFlhggQUWBGCBBRZYYIEFAVhggQUWWGBBABZYYIEFFlgQgAUWWGCBBRYEYIEFFlhggQUBWGCBBRZYYEEAFlhggQUWWBCABRZYYIEFFgRggQUWWGCBBQFYYIEFFlhgQQAWWGCBBRZYEIAFFlhggQUWBGCBBRZYn6cCIcRXgvX/h9qcIVBqDdbEM8RCxGCB9QqXYRwHYDHBgwXWl8eKZKiESHI3Ba1kWs3fKixcaJUl1YyeBm7Ocq+yLItUiVBGnXxenSHJolIKEcwHq6ikbOX1YGVzQCTN8LPmSLreghUl9sN4Uw7yajMrLC0TZ1ImzqY6FEop0+pIaEN5HaoOxVuwEqFyc4I46uSlzOLqgxlh6UaR9l3VYWl9Fdoxb1Q90KJtu41pwwFW/WHhTtW8i7TafLCqRsk6bsGw63L9qurXRmuIlbT9lDQnlXU+nBFW1Q2qnZbDprWa2tjR90LZFqx1/+Td/HpGWLlrLDvIwTcx6dQ1Vrntbig68cDms3JwbA5Y1azs1ger6sNV/bbIw1jU81MvNAGrl58RVn8ozW+btF08iGFoAlYvP3csfVur1gJBEIA1uBmue5dhZDOyO2epbmgCVi8/I6x0MMHH9pjsTfBhNzQBq5uPZoQlB0uH3DZG4EZqQ26fL3sZq5uf09Ih6qw3i/pm6BZO0qZX7rrUS68Xsbr5ZE4rePMk08pk9aUZugfqppvs6AM1Acvlo/StP+6EbW06z8hJqxbYp2BZPQUnFsLsKuhQdaHqn5ewbF7KXIn0jWO5MqOQ7RaNLPtbNMmmhimj0GUmYLl8Gs0Lq4wyPbTu1l2QKqHSouzs3OlDIslW5SQsnY/NXmFplyNvEuuLV/Tau9BzwiraDUSwXmysztYWWNtL1psXeumgIrDGaqXvBfUuvtqUYI3V2t1wk1e2msFluJJm6zDJXv/fIfjPP7DAAgsssCiwwAILLLDAosACCyywwAKLAgsssMACC6zt9fDz/v75tyOB+98PD2+ORgKffjw4OP1uJPDxl+Xy8v1I4MPF3t7VNyOB4/vF4uzdzrG+39f1kz/w66Guv/yBvw90KX/gZKkr8Qf+2dOV+gNHC12/7RxrabD2/a31bLAO/a11YbAO/K21MFhLf2s9Gqw9f2vdGqzFu11jnVusE2/gxmI9eQOnFuvYG7i0WH7uK4t15w2cWazrXWP9a7H8f/bQYvm/6IPF+sF/pVssf19Ii/WH/0K2WH/uGuvEWC39gSdj9Twy+Rqri5EZx1gt/IE7Y/XoD1wbq9vd3w1PlufnD2OBp+ebm/uxwPHF6emnscDR4vLy41jg7vHq6sNY4Pr27OyYdRaLUrDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssL6u+k+AAQCR9eHtLKvLfwAAAABJRU5ErkJggg==" data-original="MAIX_GO.jpg" alt="MAXI_GO">非常喜欢，布局非常好看。SIPEED出的，但是这块板子出场的时候是刷了MaixPy的固件，也就是在k210上刷了一个micropython的解释器。为什么要学k210这款芯片呢，最早接触到这款芯片肯定是b站大神稚晖君，当时对这个芯片没什么感觉，后来想玩一openmv，然后慢慢的找openmv的资料，然后听到大家都在说k210这款AI芯片，成本低，性能又超openmv4好几倍。然后就打算学一下这款芯片。如果学过openmv的同学直接上手Maxipy的话会非常轻松，因为都是micropython吗，算法程序甚至原版照抄都是可以运行的。micropython虽然很方便但是如果想学这款芯片的话还是要用C语言编程的，所以我打算使用官方IDE裸机开发。虽说裸机开发，但是官方是给出API的方式，没有给出底层的操作方式，官方的说法是这些API就够用了。AI的这些东西我也不太懂，所以想把它当成单片机来用，性能上不输stm32，而且这种API学起来也比较简单。</p><p> [2 - PaddlePi-K210 开发环境搭建指南-V1.0 (1).pdf](F:\项目\k210\勘智官方文档\2 - PaddlePi-K210 开发环境搭建指南-V1.0 (1).pdf) </p><p>虽说简单，但是也踩了很多坑，搭建好开发环境，刷好bin文件之后，就可以跑例程试一下了，我用的这个MAIX_GO和其他的板子不太一样，之前这个例程怎么也刷不进去。</p><p>一共有这几个问题</p><ul><li>编译出错—这个主要就是要把所有的依赖安装上，然后在构建就好了，因为你跑官方例程肯定程序是没有问题的，只是缺少SDK。安装好依赖就okl</li><li>第二个就是构建成功，但是刷不进去程序，这个主要是因为我这块板子，烧写程序的时候要把boot拉低。我这款板子是二手的，所以因该是老版的，需要手动boot，这个问题困惑了我好久好久，网上没有任何一个关于这个问题的解答，曾经一度想放弃，想去买其他板子了，又不甘心，最后还是解决了这个问题，MAIXGO的拨码开关，在烧写flash的时候拨向DOMN即可。</li><li>再有就是IDE安装会失误，启动出粗等等，实在不行就重安几遍。</li><li>以上就是我在搭建开发环境踩得坑</li><li>总体来说特别简单，就是注意这块板子主要下载时拉低BOOT就好</li></ul><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;我买的是MAIX-GO这块开发板 [ MAIXGO ] &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsCAMAAABOo35HAAAABGdBTUEAAK/INwWK6QAAA
+      
+    
+    </summary>
+    
+    
+      <category term="k210" scheme="https://wuchangcheng111.github.io/categories/k210/"/>
+    
+    
+      <category term="k210" scheme="https://wuchangcheng111.github.io/tags/k210/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>发光二极管匹配电阻问题</title>
+    <link href="https://wuchangcheng111.github.io/2020/05/11/fa-guang-er-ji-guan-pi-pei-dian-zu-wen-ti/"/>
+    <id>https://wuchangcheng111.github.io/2020/05/11/fa-guang-er-ji-guan-pi-pei-dian-zu-wen-ti/</id>
+    <published>2020-05-10T16:24:08.000Z</published>
+    <updated>2020-06-29T10:49:01.188Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="发光二极管-的匹配电阻问题"><a href="#发光二极管-的匹配电阻问题" class="headerlink" title="发光二极管 的匹配电阻问题"></a>发光二极管 的匹配电阻问题</h1><ul><li>发光二极管是我们非常常用的一个元件，有各种各样的封装尺寸，我们在使用发光二极管的时候就需要注意二极管两端的电压，还有匹配电阻的问题，我们经常使用10k的电阻和LED联，那么这个10k的电阻就起到限流的作用，用来保护我们的单片机和二极管。</li><li>我们会发现，在我们使用不同颜色的LED时，同样是串联10k的限流电阻，但是二极管的亮度是不同的，那么问题就出在，不同颜色的发光二极管，他们的压降是不一样的，所以在选择限流电阻时，这其中就涉及到一些[^计算!]</li><li>可能有的同学想知道二极管的额定电压是多少</li><li>白色LED灯的电压范围：3.0-3.4V<br>红色发光二极管的压降为2.0–2.2V<br>黄色发光二极管的压降为1.8—2.0V<br>绿色发光二极管的压降为3.0—3.2V<br>蓝色发光二极管的压降为3.0-3.4V<br>贴片式工作电压基本同双引线直插式。电流一般为：20~60mA，有的工作电流可以超过100mA。</li><li>这里又涉及到恒压供电和恒流供电，向我们开发板上那种贴片LED，一般额定电压是2.8V，但是这些二极管通常都是作为指示灯使用，所以不需要特别亮。</li></ul><p>![e1e5e30e6742835744e19b15fce5250](C:\Users\rrrr\AppData\Local\Temp\WeChat Files\e1e5e30e6742835744e19b15fce5250.jpg)</p><p>这里有一个图表，不同的电流值对应不同的亮度，二极管的压降也就不同，这里为什么要计算呢，因为我们期望我们的LED有足够的亮度，那么我们就需要选择合适的电阻，是我们的二极管有足够大的电流[^电流越大灯越亮]，但是这里要注意电流不要过大。</p><ul><li>具体的计算方法就比较简单了，根据我们期望的亮度，颜色，在曲线上找出为二极管的电流与电压，比如我们选红色的LED，工作电压2V，外部5v供电，这样的话加在电阻两端的电压就是3v，从图中可以看到电流是20mA，那么电阻就是150欧姆，可以看到150欧姆相对于10k，要小的多得多，这是为什么呢？因为我们这些指示灯，我们能看到亮度就可以了，没必要那么亮，越亮不就越费电吗，能看到亮光就行，因此需要增大限流电阻来实现超低电流，具体的亮度就需要大家去实验感受了！</li></ul><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;发光二极管-的匹配电阻问题&quot;&gt;&lt;a href=&quot;#发光二极管-的匹配电阻问题&quot; class=&quot;headerlink&quot; title=&quot;发光二极管 的匹配电阻问题&quot;&gt;&lt;/a&gt;发光二极管 的匹配电阻问题&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;发光二极管是我们非常常用的一个元件，有各
+      
+    
+    </summary>
+    
+    
+      <category term="电路" scheme="https://wuchangcheng111.github.io/categories/%E7%94%B5%E8%B7%AF/"/>
+    
+    
+      <category term="电路小知识" scheme="https://wuchangcheng111.github.io/tags/%E7%94%B5%E8%B7%AF%E5%B0%8F%E7%9F%A5%E8%AF%86/"/>
+    
+      <category term="LED" scheme="https://wuchangcheng111.github.io/tags/LED/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>步进电机乱线相序</title>
+    <link href="https://wuchangcheng111.github.io/2020/05/19/bu-jin-dian-ji-xiang-xu/"/>
+    <id>https://wuchangcheng111.github.io/2020/05/19/bu-jin-dian-ji-xiang-xu/</id>
+    <published>2020-05-19T06:04:40.000Z</published>
+    <updated>2020-05-19T06:14:51.320Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="步进电机乱线相序"><a href="#步进电机乱线相序" class="headerlink" title="步进电机乱线相序"></a>步进电机乱线相序</h1><p>我们买到二手的步进电机，一般线是乱的，可能不知道他的相序，可以使用这个方法测出相序。</p><ul><li>一般步进电机的线是成对的，四线的就是两相。</li><li>可以将两根线短接，然后用手转动电机，如果收到一定阻力，就说明这两根线是一对的。使用这种依次测量就能够把一对的找出来。</li><li>然后上程序，观察电机的转动，就可以查出每一对的正负信号线了。</li></ul><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;步进电机乱线相序&quot;&gt;&lt;a href=&quot;#步进电机乱线相序&quot; class=&quot;headerlink&quot; title=&quot;步进电机乱线相序&quot;&gt;&lt;/a&gt;步进电机乱线相序&lt;/h1&gt;&lt;p&gt;我们买到二手的步进电机，一般线是乱的，可能不知道他的相序，可以使用这个方法测出相序。&lt;/p&gt;
+      
+    
+    </summary>
+    
+    
+      <category term="小知识" scheme="https://wuchangcheng111.github.io/categories/%E5%B0%8F%E7%9F%A5%E8%AF%86/"/>
+    
+    
+      <category term="步进电机" scheme="https://wuchangcheng111.github.io/tags/%E6%AD%A5%E8%BF%9B%E7%94%B5%E6%9C%BA/"/>
+    
+  </entry>
+  
+</feed>
