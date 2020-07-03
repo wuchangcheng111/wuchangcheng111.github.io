@@ -4,6 +4,60 @@
   
     
     <entry>
+      <title>K210_USART</title>
+      <link href="/2020/07/04/k210-usart/"/>
+      <url>/2020/07/04/k210-usart/</url>
+      
+        <content type="html"><![CDATA[<script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> 分类 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 标签1 </tag>
+            
+            <tag> 标签2 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>tese</title>
+      <link href="/2020/07/04/k210-gpio/"/>
+      <url>/2020/07/04/k210-gpio/</url>
+      
+        <content type="html"><![CDATA[<script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> 分类 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 标签1 </tag>
+            
+            <tag> 标签2 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>k210</title>
       <link href="/2020/06/29/k210/"/>
       <url>/2020/06/29/k210/</url>
@@ -21,31 +75,6 @@
         <tags>
             
             <tag> k210 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>步进电机乱线相序</title>
-      <link href="/2020/05/19/bu-jin-dian-ji-xiang-xu/"/>
-      <url>/2020/05/19/bu-jin-dian-ji-xiang-xu/</url>
-      
-        <content type="html"><![CDATA[<h1 id="步进电机乱线相序"><a href="#步进电机乱线相序" class="headerlink" title="步进电机乱线相序"></a>步进电机乱线相序</h1><p>我们买到二手的步进电机，一般线是乱的，可能不知道他的相序，可以使用这个方法测出相序。</p><ul><li>一般步进电机的线是成对的，四线的就是两相。</li><li>可以将两根线短接，然后用手转动电机，如果收到一定阻力，就说明这两根线是一对的。使用这种依次测量就能够把一对的找出来。</li><li>然后上程序，观察电机的转动，就可以查出每一对的正负信号线了。</li></ul><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-      
-      
-      <categories>
-          
-          <category> 小知识 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 步进电机 </tag>
             
         </tags>
       
