@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://wuchangcheng111.github.io/"/>
-  <updated>2020-06-29T12:19:46.761Z</updated>
+  <updated>2020-07-03T17:06:41.026Z</updated>
   <id>https://wuchangcheng111.github.io/</id>
   
   <author>
@@ -17,20 +17,79 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>K210_USART</title>
+    <link href="https://wuchangcheng111.github.io/2020/07/04/k210-usart/"/>
+    <id>https://wuchangcheng111.github.io/2020/07/04/k210-usart/</id>
+    <published>2020-07-03T16:42:49.000Z</published>
+    <updated>2020-07-03T17:06:41.026Z</updated>
+    
+    <content type="html"><![CDATA[<script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;script&gt;
+        document.querySelectorAll(&#39;.github-emoji&#39;)
+          .forEach(el =&gt; {
+            if (!el.dataset.src) { return; }
+        
+      
+    
+    </summary>
+    
+    
+      <category term="分类" scheme="https://wuchangcheng111.github.io/categories/%E5%88%86%E7%B1%BB/"/>
+    
+    
+      <category term="标签1" scheme="https://wuchangcheng111.github.io/tags/%E6%A0%87%E7%AD%BE1/"/>
+    
+      <category term="标签2" scheme="https://wuchangcheng111.github.io/tags/%E6%A0%87%E7%AD%BE2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>K210_GPIO</title>
+    <link href="https://wuchangcheng111.github.io/2020/07/04/k210-gpio/"/>
+    <id>https://wuchangcheng111.github.io/2020/07/04/k210-gpio/</id>
+    <published>2020-07-03T16:42:10.000Z</published>
+    <updated>2020-07-03T17:04:02.958Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="K210-GPIO基本操作"><a href="#K210-GPIO基本操作" class="headerlink" title="K210_GPIO基本操作"></a>K210_GPIO基本操作</h1><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;K210-GPIO基本操作&quot;&gt;&lt;a href=&quot;#K210-GPIO基本操作&quot; class=&quot;headerlink&quot; title=&quot;K210_GPIO基本操作&quot;&gt;&lt;/a&gt;K210_GPIO基本操作&lt;/h1&gt;&lt;script&gt;
+        document.que
+      
+    
+    </summary>
+    
+    
+      <category term="K210" scheme="https://wuchangcheng111.github.io/categories/K210/"/>
+    
+    
+      <category term="K210" scheme="https://wuchangcheng111.github.io/tags/K210/"/>
+    
+  </entry>
+  
+  <entry>
     <title>k210</title>
     <link href="https://wuchangcheng111.github.io/2020/06/29/k210/"/>
     <id>https://wuchangcheng111.github.io/2020/06/29/k210/</id>
     <published>2020-06-29T08:55:40.000Z</published>
     <updated>2020-06-29T12:19:46.761Z</updated>
     
-    <content type="html"><![CDATA[<p>我买的是MAIX-GO这块开发板 [ MAIXGO ] </p><p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsCAMAAABOo35HAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAC9UExURVlZWdPT07KysmRkZIWFhfT09JmZmWZmZm9vb39/fxkZGUxMTDMzM3p6epCQkKamppubm729venp6cjIyN7e3tbW1s/Pz8LCwnx8fLS0tFZWVoiIiI+Pj6GhoeTk5Glpabu7u93d3evr66CgoJSUlKqqqsnJyeDg4Hd3d8PDw+Xl5bi4uNHR0dvb26Ojo6urq+fn51hYWDg4OCgoKHBwcK2traenp0FBQe7u7vHx8U5OTre3t8zMzHV1df///7GrnpQAAAA/dFJOU///////////////////////////////////////////////////////////////////////////////////AI4mfBcAAAUGSURBVHja7NoJb6M4GMZxY0NCD64kve/pMZ2d3Z297+X7f6zFNmBAMUXa6URl/q9UJSWPUPzrizFWRUlNLgEBWGCBBRZYYEEAFlhggQUWWBCABRZYYIEFFgRggQUWWGCBBQFYYIEFFlhgQQAWWGCBBRZYEIAFFlhggQUWBGCBBRZYYIEFAVhggQUWWGBBABZYYIEFFlgQgAUWWGCBBRYEYIEFFlhggQUBWGCBBRZYYEEAFlhggQUWWBCABRZYYIEFFgRggQUWWGCBBQFYYIEFFlhgQQAWWGCBBRZYEIAFFlhggQUWBGCBBRZYn6cCIcRXgvX/h9qcIVBqDdbEM8RCxGCB9QqXYRwHYDHBgwXWl8eKZKiESHI3Ba1kWs3fKixcaJUl1YyeBm7Ocq+yLItUiVBGnXxenSHJolIKEcwHq6ikbOX1YGVzQCTN8LPmSLreghUl9sN4Uw7yajMrLC0TZ1ImzqY6FEop0+pIaEN5HaoOxVuwEqFyc4I46uSlzOLqgxlh6UaR9l3VYWl9Fdoxb1Q90KJtu41pwwFW/WHhTtW8i7TafLCqRsk6bsGw63L9qurXRmuIlbT9lDQnlXU+nBFW1Q2qnZbDprWa2tjR90LZFqx1/+Td/HpGWLlrLDvIwTcx6dQ1Vrntbig68cDms3JwbA5Y1azs1ger6sNV/bbIw1jU81MvNAGrl58RVn8ozW+btF08iGFoAlYvP3csfVur1gJBEIA1uBmue5dhZDOyO2epbmgCVi8/I6x0MMHH9pjsTfBhNzQBq5uPZoQlB0uH3DZG4EZqQ26fL3sZq5uf09Ih6qw3i/pm6BZO0qZX7rrUS68Xsbr5ZE4rePMk08pk9aUZugfqppvs6AM1Acvlo/StP+6EbW06z8hJqxbYp2BZPQUnFsLsKuhQdaHqn5ewbF7KXIn0jWO5MqOQ7RaNLPtbNMmmhimj0GUmYLl8Gs0Lq4wyPbTu1l2QKqHSouzs3OlDIslW5SQsnY/NXmFplyNvEuuLV/Tau9BzwiraDUSwXmysztYWWNtL1psXeumgIrDGaqXvBfUuvtqUYI3V2t1wk1e2msFluJJm6zDJXv/fIfjPP7DAAgsssCiwwAILLLDAosACCyywwAKLAgsssMACC6zt9fDz/v75tyOB+98PD2+ORgKffjw4OP1uJPDxl+Xy8v1I4MPF3t7VNyOB4/vF4uzdzrG+39f1kz/w66Guv/yBvw90KX/gZKkr8Qf+2dOV+gNHC12/7RxrabD2/a31bLAO/a11YbAO/K21MFhLf2s9Gqw9f2vdGqzFu11jnVusE2/gxmI9eQOnFuvYG7i0WH7uK4t15w2cWazrXWP9a7H8f/bQYvm/6IPF+sF/pVssf19Ii/WH/0K2WH/uGuvEWC39gSdj9Twy+Rqri5EZx1gt/IE7Y/XoD1wbq9vd3w1PlufnD2OBp+ebm/uxwPHF6emnscDR4vLy41jg7vHq6sNY4Pr27OyYdRaLUrDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssL6u+k+AAQCR9eHtLKvLfwAAAABJRU5ErkJggg==" data-original="MAIX_GO.jpg" alt="MAXI_GO">非常喜欢，布局非常好看。SIPEED出的，但是这块板子出场的时候是刷了MaixPy的固件，也就是在k210上刷了一个micropython的解释器。为什么要学k210这款芯片呢，最早接触到这款芯片肯定是b站大神稚晖君，当时对这个芯片没什么感觉，后来想玩一openmv，然后慢慢的找openmv的资料，然后听到大家都在说k210这款AI芯片，成本低，性能又超openmv4好几倍。然后就打算学一下这款芯片。如果学过openmv的同学直接上手Maxipy的话会非常轻松，因为都是micropython吗，算法程序甚至原版照抄都是可以运行的。micropython虽然很方便但是如果想学这款芯片的话还是要用C语言编程的，所以我打算使用官方IDE裸机开发。虽说裸机开发，但是官方是给出API的方式，没有给出底层的操作方式，官方的说法是这些API就够用了。AI的这些东西我也不太懂，所以想把它当成单片机来用，性能上不输stm32，而且这种API学起来也比较简单。</p><p> [2 - PaddlePi-K210 开发环境搭建指南-V1.0 (1).pdf](F:\项目\k210\勘智官方文档\2 - PaddlePi-K210 开发环境搭建指南-V1.0 (1).pdf) </p><p>虽说简单，但是也踩了很多坑，搭建好开发环境，刷好bin文件之后，就可以跑例程试一下了，我用的这个MAIX_GO和其他的板子不太一样，之前这个例程怎么也刷不进去。</p><p>一共有这几个问题</p><ul><li>编译出错—这个主要就是要把所有的依赖安装上，然后在构建就好了，因为你跑官方例程肯定程序是没有问题的，只是缺少SDK。安装好依赖就okl</li><li>第二个就是构建成功，但是刷不进去程序，这个主要是因为我这块板子，烧写程序的时候要把boot拉低。我这款板子是二手的，所以因该是老版的，需要手动boot，这个问题困惑了我好久好久，网上没有任何一个关于这个问题的解答，曾经一度想放弃，想去买其他板子了，又不甘心，最后还是解决了这个问题，MAIXGO的拨码开关，在烧写flash的时候拨向DOMN即可。</li><li>再有就是IDE安装会失误，启动出粗等等，实在不行就重安几遍。</li><li>以上就是我在搭建开发环境踩得坑</li><li>总体来说特别简单，就是注意这块板子主要下载时拉低BOOT就好</li></ul><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    <content type="html"><![CDATA[<p>我买的是MAIX-GO这块开发板 [ MAIXGO ] </p><p><img src="/2020/06/29/k210/MAIX_GO.jpg" alt="MAXI_GO">非常喜欢，布局非常好看。SIPEED出的，但是这块板子出场的时候是刷了MaixPy的固件，也就是在k210上刷了一个micropython的解释器。为什么要学k210这款芯片呢，最早接触到这款芯片肯定是b站大神稚晖君，当时对这个芯片没什么感觉，后来想玩一openmv，然后慢慢的找openmv的资料，然后听到大家都在说k210这款AI芯片，成本低，性能又超openmv4好几倍。然后就打算学一下这款芯片。如果学过openmv的同学直接上手Maxipy的话会非常轻松，因为都是micropython吗，算法程序甚至原版照抄都是可以运行的。micropython虽然很方便但是如果想学这款芯片的话还是要用C语言编程的，所以我打算使用官方IDE裸机开发。虽说裸机开发，但是官方是给出API的方式，没有给出底层的操作方式，官方的说法是这些API就够用了。AI的这些东西我也不太懂，所以想把它当成单片机来用，性能上不输stm32，而且这种API学起来也比较简单。</p><p> [2 - PaddlePi-K210 开发环境搭建指南-V1.0 (1).pdf](F:\项目\k210\勘智官方文档\2 - PaddlePi-K210 开发环境搭建指南-V1.0 (1).pdf) </p><p>虽说简单，但是也踩了很多坑，搭建好开发环境，刷好bin文件之后，就可以跑例程试一下了，我用的这个MAIX_GO和其他的板子不太一样，之前这个例程怎么也刷不进去。</p><p>一共有这几个问题</p><ul><li>编译出错—这个主要就是要把所有的依赖安装上，然后在构建就好了，因为你跑官方例程肯定程序是没有问题的，只是缺少SDK。安装好依赖就okl</li><li>第二个就是构建成功，但是刷不进去程序，这个主要是因为我这块板子，烧写程序的时候要把boot拉低。我这款板子是二手的，所以因该是老版的，需要手动boot，这个问题困惑了我好久好久，网上没有任何一个关于这个问题的解答，曾经一度想放弃，想去买其他板子了，又不甘心，最后还是解决了这个问题，MAIXGO的拨码开关，在烧写flash的时候拨向DOMN即可。</li><li>再有就是IDE安装会失误，启动出粗等等，实在不行就重安几遍。</li><li>以上就是我在搭建开发环境踩得坑</li><li>总体来说特别简单，就是注意这块板子主要下载时拉低BOOT就好</li></ul><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
     
     <summary type="html">
     
       
       
         &lt;p&gt;我买的是MAIX-GO这块开发板 [ MAIXGO ] &lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsCAMAAABOo35HAAAABGdBTUEAAK/INwWK6QAAA
+&lt;p&gt;&lt;img src=&quot;/2020/06/29/k210/MAIX_GO.jpg&quot; alt=&quot;MAXI_GO&quot;&gt;非常喜欢，布局非常好看。SIPEED出的，但是这块板子出场的时候是刷了MaixPy的固件，也就
       
     
     </summary>
@@ -73,61 +132,33 @@
   </entry>
   
   <entry>
-    <title>K210_USART</title>
-    <link href="https://wuchangcheng111.github.io/2020/07/04/k210-usart/"/>
-    <id>https://wuchangcheng111.github.io/2020/07/04/k210-usart/</id>
-    <published>2020-07-03T16:42:49.000Z</published>
-    <updated>2020-07-03T17:04:22.176Z</updated>
+    <title>常用换算</title>
+    <link href="https://wuchangcheng111.github.io/2020/07/05/chang-yong-huan-suan/"/>
+    <id>https://wuchangcheng111.github.io/2020/07/05/chang-yong-huan-suan/</id>
+    <published>2020-07-05T11:10:09.000Z</published>
+    <updated>2020-07-05T11:13:57.671Z</updated>
     
-    <content type="html"><![CDATA[<script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;script&gt;
-        document.querySelectorAll(&#39;.github-emoji&#39;)
-          .forEach(el =&gt; {
-            if (!el.dataset.src) { return; }
-        
-      
-    
-    </summary>
-    
-    
-      <category term="分类" scheme="https://wuchangcheng111.github.io/categories/%E5%88%86%E7%B1%BB/"/>
-    
-    
-      <category term="标签1" scheme="https://wuchangcheng111.github.io/tags/%E6%A0%87%E7%AD%BE1/"/>
-    
-      <category term="标签2" scheme="https://wuchangcheng111.github.io/tags/%E6%A0%87%E7%AD%BE2/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>K210_GPIO</title>
-    <link href="https://wuchangcheng111.github.io/2020/07/04/k210-gpio/"/>
-    <id>https://wuchangcheng111.github.io/2020/07/04/k210-gpio/</id>
-    <published>2020-07-03T16:42:10.000Z</published>
-    <updated>2020-07-03T16:49:41.173Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="K210-GPIO基本操作"><a href="#K210-GPIO基本操作" class="headerlink" title="K210_GPIO基本操作"></a>K210_GPIO基本操作</h1><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    <content type="html"><![CDATA[<h1 id="频率周期"><a href="#频率周期" class="headerlink" title="频率周期"></a>频率周期</h1><ul><li>T=1/f</li><li>1秒=1000毫秒</li><li>1毫秒=1000微秒</li></ul><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h1 id=&quot;K210-GPIO基本操作&quot;&gt;&lt;a href=&quot;#K210-GPIO基本操作&quot; class=&quot;headerlink&quot; title=&quot;K210_GPIO基本操作&quot;&gt;&lt;/a&gt;K210_GPIO基本操作&lt;/h1&gt;&lt;script&gt;
-        document.que
+        &lt;h1 id=&quot;频率周期&quot;&gt;&lt;a href=&quot;#频率周期&quot; class=&quot;headerlink&quot; title=&quot;频率周期&quot;&gt;&lt;/a&gt;频率周期&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;T=1/f&lt;/li&gt;
+&lt;li&gt;1秒=1000毫秒&lt;/li&gt;
+&lt;li&gt;1毫秒=1000微秒&lt;/li&gt;
+&lt;/ul&gt;
+
       
     
     </summary>
     
     
-      <category term="K210" scheme="https://wuchangcheng111.github.io/categories/K210/"/>
+      <category term="小知识" scheme="https://wuchangcheng111.github.io/categories/%E5%B0%8F%E7%9F%A5%E8%AF%86/"/>
     
     
-      <category term="K210" scheme="https://wuchangcheng111.github.io/tags/K210/"/>
+      <category term="单位换算" scheme="https://wuchangcheng111.github.io/tags/%E5%8D%95%E4%BD%8D%E6%8D%A2%E7%AE%97/"/>
     
   </entry>
   
