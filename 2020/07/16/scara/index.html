@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="发光二极管匹配电阻问题, ARC">
+    <meta name="keywords" content="关键字">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>发光二极管匹配电阻问题 | ARC</title>
+    <title>MATLABscara机器人 | ARC</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -259,12 +259,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/16.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/1.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">发光二极管匹配电阻问题</h1>
+                    <h1 class="description center-align post-title">MATLABscara机器人</h1>
                 </div>
             </div>
         </div>
@@ -381,12 +381,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/%E7%94%B5%E8%B7%AF%E5%B0%8F%E7%9F%A5%E8%AF%86/">
-                                <span class="chip bg-color">电路小知识</span>
-                            </a>
-                        
-                            <a href="/tags/LED/">
-                                <span class="chip bg-color">LED</span>
+                            <a href="/tags/scara%E6%9C%BA%E5%99%A8%E4%BA%BA/">
+                                <span class="chip bg-color">scara机器人</span>
                             </a>
                         
                     </div>
@@ -397,8 +393,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/%E7%94%B5%E8%B7%AF/" class="post-category">
-                                电路
+                            <a href="/categories/MATLAB/" class="post-category">
+                                MATLAB
                             </a>
                         
                     </div>
@@ -410,7 +406,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-05-11
+                    2020-07-16
                 </div>
                 
 
@@ -419,7 +415,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    746
+                    507
                 </div>
                 
 
@@ -436,18 +432,90 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="发光二极管-的匹配电阻问题"><a href="#发光二极管-的匹配电阻问题" class="headerlink" title="发光二极管 的匹配电阻问题"></a>发光二极管 的匹配电阻问题</h1><ul>
-<li>发光二极管是我们非常常用的一个元件，有各种各样的封装尺寸，我们在使用发光二极管的时候就需要注意二极管两端的电压，还有匹配电阻的问题，我们经常使用10k的电阻和LED联，那么这个10k的电阻就起到限流的作用，用来保护我们的单片机和二极管。</li>
-<li>我们会发现，在我们使用不同颜色的LED时，同样是串联10k的限流电阻，但是二极管的亮度是不同的，那么问题就出在，不同颜色的发光二极管，他们的压降是不一样的，所以在选择限流电阻时，这其中就涉及到一些[^计算!]</li>
-<li>可能有的同学想知道二极管的额定电压是多少</li>
-<li>白色LED灯的电压范围：3.0-3.4V<br>红色发光二极管的压降为2.0–2.2V<br>黄色发光二极管的压降为1.8—2.0V<br>绿色发光二极管的压降为3.0—3.2V<br>蓝色发光二极管的压降为3.0-3.4V<br>贴片式工作电压基本同双引线直插式。电流一般为：20~60mA，有的工作电流可以超过100mA。</li>
-<li>这里又涉及到恒压供电和恒流供电，向我们开发板上那种贴片LED，一般额定电压是2.8V，但是这些二极管通常都是作为指示灯使用，所以不需要特别亮。</li>
-</ul>
-<p>![e1e5e30e6742835744e19b15fce5250](C:\Users\rrrr\AppData\Local\Temp\WeChat Files\e1e5e30e6742835744e19b15fce5250.jpg)</p>
-<p>这里有一个图表，不同的电流值对应不同的亮度，二极管的压降也就不同，这里为什么要计算呢，因为我们期望我们的LED有足够的亮度，那么我们就需要选择合适的电阻，是我们的二极管有足够大的电流[^电流越大灯越亮]，但是这里要注意电流不要过大。</p>
-<ul>
-<li>具体的计算方法就比较简单了，根据我们期望的亮度，颜色，在曲线上找出为二极管的电流与电压，比如我们选红色的LED，工作电压2V，外部5v供电，这样的话加在电阻两端的电压就是3v，从图中可以看到电流是20mA，那么电阻就是150欧姆，可以看到150欧姆相对于10k，要小的多得多，这是为什么呢？因为我们这些指示灯，我们能看到亮度就可以了，没必要那么亮，越亮不就越费电吗，能看到亮光就行，因此需要增大限流电阻来实现超低电流，具体的亮度就需要大家去实验感受了！</li>
-</ul>
+                <pre class=" language-matlab"><code class="language-matlab">clc
+
+clear      
+<span class="token comment" spellcheck="true">%***********************************建立DH参数表--改进的DH模型************************************</span>
+L1<span class="token operator">=</span><span class="token function">Link</span><span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token number">0</span> <span class="token number">0</span> <span class="token number">0</span> <span class="token number">0</span> <span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">,</span><span class="token string">'modified'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>                                <span class="token comment" spellcheck="true">%旋转关节</span>
+L2<span class="token operator">=</span><span class="token function">Link</span><span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token number">0</span> <span class="token number">0</span> <span class="token number">200</span> <span class="token keyword">pi</span> <span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">,</span><span class="token string">'modified'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>                             <span class="token comment" spellcheck="true">%旋转关节</span>
+L3<span class="token operator">=</span><span class="token function">Link</span><span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token number">0</span> <span class="token number">0</span> <span class="token number">150</span> <span class="token number">0</span> <span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">,</span><span class="token string">'modified'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>                              <span class="token comment" spellcheck="true">%移动关节最后一个参数为1</span>
+L4<span class="token operator">=</span><span class="token function">Link</span><span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token number">0</span> <span class="token number">0</span> <span class="token number">0</span> <span class="token number">0</span> <span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">,</span><span class="token string">'modified'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>                                <span class="token comment" spellcheck="true">%旋转关节</span>
+Robot<span class="token operator">=</span><span class="token function">SerialLink</span><span class="token punctuation">(</span><span class="token punctuation">[</span>L1 L2 L3 L4<span class="token punctuation">]</span><span class="token punctuation">,</span><span class="token string">'name'</span><span class="token punctuation">,</span><span class="token string">'Scara'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>                 <span class="token comment" spellcheck="true">%组合连杆并命名</span>
+Robot<span class="token punctuation">.</span>qlim<span class="token operator">=</span><span class="token punctuation">[</span><span class="token operator">-</span><span class="token number">125</span><span class="token operator">*</span><span class="token keyword">pi</span><span class="token operator">/</span><span class="token number">180</span> <span class="token number">125</span><span class="token operator">*</span><span class="token keyword">pi</span><span class="token operator">/</span><span class="token number">180</span><span class="token punctuation">;</span><span class="token operator">-</span><span class="token number">140</span><span class="token operator">*</span><span class="token keyword">pi</span><span class="token operator">/</span><span class="token number">180</span> <span class="token number">140</span><span class="token operator">*</span><span class="token keyword">pi</span><span class="token operator">/</span><span class="token number">180</span><span class="token punctuation">;</span><span class="token number">0</span> <span class="token number">200</span><span class="token punctuation">;</span><span class="token operator">-</span><span class="token number">3</span><span class="token operator">*</span><span class="token keyword">pi</span> <span class="token number">3</span><span class="token operator">*</span><span class="token keyword">pi</span><span class="token punctuation">]</span><span class="token punctuation">;</span><span class="token comment" spellcheck="true">%关节限制</span>
+Robot<span class="token punctuation">.</span><span class="token function">plot</span><span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token number">0</span> <span class="token number">0</span> <span class="token number">0</span> <span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token string">'workspace'</span><span class="token punctuation">,</span><span class="token punctuation">[</span><span class="token operator">-</span><span class="token number">400</span> <span class="token number">400</span> <span class="token operator">-</span><span class="token number">400</span> <span class="token number">400</span> <span class="token operator">-</span><span class="token number">300</span> <span class="token number">300</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment" spellcheck="true">%输出到工作空间定义xyz范围</span>
+Robot<span class="token punctuation">.</span><span class="token function">display</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>                                                <span class="token comment" spellcheck="true">%DH表显示</span>
+Robot<span class="token punctuation">.</span><span class="token function">teach</span><span class="token punctuation">(</span><span class="token punctuation">)</span>                                                   <span class="token comment" spellcheck="true">%示教</span>
+<span class="token comment" spellcheck="true">%*******************************************轨迹规划*************************************************</span>
+q0<span class="token operator">=</span><span class="token punctuation">[</span><span class="token number">0</span> <span class="token number">0</span> <span class="token number">0</span> <span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">;</span>                                                  <span class="token comment" spellcheck="true">%定义几个参数</span>
+q1<span class="token operator">=</span><span class="token punctuation">[</span><span class="token number">0</span> <span class="token number">0</span> <span class="token number">200</span> <span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">;</span>  
+q2<span class="token operator">=</span><span class="token punctuation">[</span><span class="token keyword">pi</span><span class="token operator">/</span><span class="token number">2</span> <span class="token number">0</span> <span class="token number">0</span> <span class="token keyword">pi</span><span class="token punctuation">]</span><span class="token punctuation">;</span>                                              <span class="token comment" spellcheck="true">%第三个参数为d其余为轴旋转角度</span>
+q3<span class="token operator">=</span><span class="token punctuation">[</span><span class="token keyword">pi</span><span class="token operator">/</span><span class="token number">2</span> <span class="token number">0</span> <span class="token number">200</span> <span class="token keyword">pi</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+q4<span class="token operator">=</span><span class="token punctuation">[</span><span class="token keyword">pi</span><span class="token operator">/</span><span class="token number">2</span> <span class="token number">0</span> <span class="token number">0</span> <span class="token keyword">pi</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+t<span class="token operator">=</span><span class="token number">20</span>    <span class="token punctuation">;</span>   <span class="token comment" spellcheck="true">%规定步数20步</span>
+sqtraj1<span class="token operator">=</span><span class="token function">jtraj</span><span class="token punctuation">(</span>q0<span class="token punctuation">,</span>q1<span class="token punctuation">,</span>t<span class="token punctuation">)</span><span class="token punctuation">;</span>                      <span class="token comment" spellcheck="true">%变换语句</span>
+sqtraj2<span class="token operator">=</span><span class="token function">jtraj</span><span class="token punctuation">(</span>q1<span class="token punctuation">,</span>q0<span class="token punctuation">,</span>t<span class="token punctuation">)</span><span class="token punctuation">;</span> 
+sqtraj3<span class="token operator">=</span><span class="token function">jtraj</span><span class="token punctuation">(</span>q0<span class="token punctuation">,</span>q2<span class="token punctuation">,</span>t<span class="token punctuation">)</span><span class="token punctuation">;</span>
+sqtraj4<span class="token operator">=</span><span class="token function">jtraj</span><span class="token punctuation">(</span>q2<span class="token punctuation">,</span>q3<span class="token punctuation">,</span>t<span class="token punctuation">)</span><span class="token punctuation">;</span>
+sqtraj5<span class="token operator">=</span><span class="token function">jtraj</span><span class="token punctuation">(</span>q3<span class="token punctuation">,</span>q4<span class="token punctuation">,</span>t<span class="token punctuation">)</span><span class="token punctuation">;</span>
+hold on
+<span class="token comment" spellcheck="true">% Robot.plot(sqtraj1);</span>
+<span class="token comment" spellcheck="true">% Robot.plot(sqtraj2);</span>
+<span class="token comment" spellcheck="true">% Robot.plot(sqtraj3);</span>
+<span class="token comment" spellcheck="true">% Robot.plot(sqtraj4);</span>
+<span class="token comment" spellcheck="true">% Robot.plot(sqtraj5);</span>
+
+<span class="token keyword">for</span> <span class="token number">i</span><span class="token operator">=</span><span class="token number">1</span><span class="token operator">:</span><span class="token number">1</span><span class="token operator">:</span><span class="token number">20</span>
+    atj<span class="token operator">=</span>Robot<span class="token punctuation">.</span><span class="token function">fkine</span><span class="token punctuation">(</span><span class="token function">sqtraj1</span><span class="token punctuation">(</span><span class="token number">i</span><span class="token punctuation">,</span><span class="token operator">:</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    jta<span class="token operator">=</span><span class="token function">transpose</span><span class="token punctuation">(</span>atj<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">JTA</span><span class="token punctuation">(</span><span class="token number">i</span><span class="token punctuation">,</span><span class="token operator">:</span><span class="token punctuation">)</span><span class="token operator">=</span>jta<span class="token punctuation">.</span>t<span class="token punctuation">;</span>
+    jta<span class="token operator">=</span>JTA<span class="token punctuation">;</span>
+    <span class="token function">plot2</span><span class="token punctuation">(</span><span class="token function">jta</span><span class="token punctuation">(</span><span class="token number">i</span><span class="token punctuation">,</span><span class="token operator">:</span><span class="token punctuation">)</span><span class="token punctuation">,</span><span class="token string">'r.'</span><span class="token punctuation">)</span>
+    Robot<span class="token punctuation">.</span><span class="token function">plot</span><span class="token punctuation">(</span><span class="token function">sqtraj1</span><span class="token punctuation">(</span><span class="token number">i</span><span class="token punctuation">,</span><span class="token operator">:</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+<span class="token keyword">end</span>
+
+<span class="token keyword">for</span> <span class="token number">i</span><span class="token operator">=</span><span class="token number">1</span><span class="token operator">:</span><span class="token number">1</span><span class="token operator">:</span><span class="token number">20</span>
+    atj<span class="token operator">=</span>Robot<span class="token punctuation">.</span><span class="token function">fkine</span><span class="token punctuation">(</span><span class="token function">sqtraj2</span><span class="token punctuation">(</span><span class="token number">i</span><span class="token punctuation">,</span><span class="token operator">:</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    jta<span class="token operator">=</span><span class="token function">transpose</span><span class="token punctuation">(</span>atj<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">JTA</span><span class="token punctuation">(</span><span class="token number">i</span><span class="token punctuation">,</span><span class="token operator">:</span><span class="token punctuation">)</span><span class="token operator">=</span>jta<span class="token punctuation">.</span>t<span class="token punctuation">;</span>
+    jta<span class="token operator">=</span>JTA<span class="token punctuation">;</span>
+    <span class="token function">plot2</span><span class="token punctuation">(</span><span class="token function">jta</span><span class="token punctuation">(</span><span class="token number">i</span><span class="token punctuation">,</span><span class="token operator">:</span><span class="token punctuation">)</span><span class="token punctuation">,</span><span class="token string">'r.'</span><span class="token punctuation">)</span>
+    Robot<span class="token punctuation">.</span><span class="token function">plot</span><span class="token punctuation">(</span><span class="token function">sqtraj2</span><span class="token punctuation">(</span><span class="token number">i</span><span class="token punctuation">,</span><span class="token operator">:</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+<span class="token keyword">end</span>
+
+<span class="token keyword">for</span> <span class="token number">i</span><span class="token operator">=</span><span class="token number">1</span><span class="token operator">:</span><span class="token number">1</span><span class="token operator">:</span><span class="token number">20</span>
+    atj<span class="token operator">=</span>Robot<span class="token punctuation">.</span><span class="token function">fkine</span><span class="token punctuation">(</span><span class="token function">sqtraj3</span><span class="token punctuation">(</span><span class="token number">i</span><span class="token punctuation">,</span><span class="token operator">:</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    jta<span class="token operator">=</span><span class="token function">transpose</span><span class="token punctuation">(</span>atj<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">JTA</span><span class="token punctuation">(</span><span class="token number">i</span><span class="token punctuation">,</span><span class="token operator">:</span><span class="token punctuation">)</span><span class="token operator">=</span>jta<span class="token punctuation">.</span>t<span class="token punctuation">;</span>
+    jta<span class="token operator">=</span>JTA<span class="token punctuation">;</span>
+    <span class="token function">plot2</span><span class="token punctuation">(</span><span class="token function">jta</span><span class="token punctuation">(</span><span class="token number">i</span><span class="token punctuation">,</span><span class="token operator">:</span><span class="token punctuation">)</span><span class="token punctuation">,</span><span class="token string">'r.'</span><span class="token punctuation">)</span>
+    Robot<span class="token punctuation">.</span><span class="token function">plot</span><span class="token punctuation">(</span><span class="token function">sqtraj3</span><span class="token punctuation">(</span><span class="token number">i</span><span class="token punctuation">,</span><span class="token operator">:</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+<span class="token keyword">end</span>
+
+<span class="token keyword">for</span> <span class="token number">i</span><span class="token operator">=</span><span class="token number">1</span><span class="token operator">:</span><span class="token number">1</span><span class="token operator">:</span><span class="token number">20</span>
+    atj<span class="token operator">=</span>Robot<span class="token punctuation">.</span><span class="token function">fkine</span><span class="token punctuation">(</span><span class="token function">sqtraj4</span><span class="token punctuation">(</span><span class="token number">i</span><span class="token punctuation">,</span><span class="token operator">:</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    jta<span class="token operator">=</span><span class="token function">transpose</span><span class="token punctuation">(</span>atj<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">JTA</span><span class="token punctuation">(</span><span class="token number">i</span><span class="token punctuation">,</span><span class="token operator">:</span><span class="token punctuation">)</span><span class="token operator">=</span>jta<span class="token punctuation">.</span>t<span class="token punctuation">;</span>
+    jta<span class="token operator">=</span>JTA<span class="token punctuation">;</span>
+    <span class="token function">plot2</span><span class="token punctuation">(</span><span class="token function">jta</span><span class="token punctuation">(</span><span class="token number">i</span><span class="token punctuation">,</span><span class="token operator">:</span><span class="token punctuation">)</span><span class="token punctuation">,</span><span class="token string">'r.'</span><span class="token punctuation">)</span>
+    Robot<span class="token punctuation">.</span><span class="token function">plot</span><span class="token punctuation">(</span><span class="token function">sqtraj4</span><span class="token punctuation">(</span><span class="token number">i</span><span class="token punctuation">,</span><span class="token operator">:</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+<span class="token keyword">end</span>
+
+<span class="token keyword">for</span> <span class="token number">i</span><span class="token operator">=</span><span class="token number">1</span><span class="token operator">:</span><span class="token number">1</span><span class="token operator">:</span><span class="token number">20</span>
+    atj<span class="token operator">=</span>Robot<span class="token punctuation">.</span><span class="token function">fkine</span><span class="token punctuation">(</span><span class="token function">sqtraj5</span><span class="token punctuation">(</span><span class="token number">i</span><span class="token punctuation">,</span><span class="token operator">:</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    jta<span class="token operator">=</span><span class="token function">transpose</span><span class="token punctuation">(</span>atj<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">JTA</span><span class="token punctuation">(</span><span class="token number">i</span><span class="token punctuation">,</span><span class="token operator">:</span><span class="token punctuation">)</span><span class="token operator">=</span>jta<span class="token punctuation">.</span>t<span class="token punctuation">;</span>
+    jta<span class="token operator">=</span>JTA<span class="token punctuation">;</span>
+    <span class="token function">plot2</span><span class="token punctuation">(</span><span class="token function">jta</span><span class="token punctuation">(</span><span class="token number">i</span><span class="token punctuation">,</span><span class="token operator">:</span><span class="token punctuation">)</span><span class="token punctuation">,</span><span class="token string">'r.'</span><span class="token punctuation">)</span>
+    Robot<span class="token punctuation">.</span><span class="token function">plot</span><span class="token punctuation">(</span><span class="token function">sqtraj5</span><span class="token punctuation">(</span><span class="token number">i</span><span class="token punctuation">,</span><span class="token operator">:</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+<span class="token keyword">end</span>
+<span class="token comment" spellcheck="true">%******************************正运动学*************************************</span>
+
+joint <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token keyword">pi</span><span class="token operator">/</span><span class="token number">6</span> <span class="token keyword">pi</span><span class="token operator">/</span><span class="token number">3</span> <span class="token number">150</span> <span class="token keyword">pi</span><span class="token operator">/</span><span class="token number">3</span><span class="token punctuation">]</span><span class="token punctuation">;</span>            <span class="token comment" spellcheck="true">%正运动学设置角度</span>
+T <span class="token operator">=</span> Robot<span class="token punctuation">.</span><span class="token function">fkine</span><span class="token punctuation">(</span>joint<span class="token punctuation">)</span><span class="token punctuation">;</span>                  <span class="token comment" spellcheck="true">%求解齐次变换矩阵</span>
+Robot<span class="token punctuation">.</span><span class="token function">plot</span><span class="token punctuation">(</span>joint<span class="token punctuation">)</span><span class="token punctuation">;</span>                       <span class="token comment" spellcheck="true">%画出位姿</span>
+
+<span class="token comment" spellcheck="true">%******************************逆运动学*************************************</span>
+Robot<span class="token punctuation">.</span><span class="token function">ikine</span><span class="token punctuation">(</span>T<span class="token punctuation">,</span> <span class="token string">'mask'</span><span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token number">1</span> <span class="token number">1</span> <span class="token number">1</span> <span class="token number">0</span> <span class="token number">0</span> <span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span>    <span class="token comment" spellcheck="true">%逆运动学求解求出关节量</span></code></pre>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -491,7 +559,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://wuchangcheng111.github.io/2020/05/11/fa-guang-er-ji-guan-pi-pei-dian-zu-wen-ti/">https://wuchangcheng111.github.io/2020/05/11/fa-guang-er-ji-guan-pi-pei-dian-zu-wen-ti/</a>
+                    <a href="https://wuchangcheng111.github.io/2020/07/16/scara/">https://wuchangcheng111.github.io/2020/07/16/scara/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -529,12 +597,8 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/%E7%94%B5%E8%B7%AF%E5%B0%8F%E7%9F%A5%E8%AF%86/">
-                                    <span class="chip bg-color">电路小知识</span>
-                                </a>
-                            
-                                <a href="/tags/LED/">
-                                    <span class="chip bg-color">LED</span>
+                                <a href="/tags/scara%E6%9C%BA%E5%99%A8%E4%BA%BA/">
+                                    <span class="chip bg-color">scara机器人</span>
                                 </a>
                             
                         </div>
@@ -965,84 +1029,36 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2020/06/29/k210/">
+                <a href="/2020/07/16/scara/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/14.jpg" class="responsive-img" alt="k210">
+                        <img src="/medias/featureimages/1.jpg" class="responsive-img" alt="MATLABscara机器人">
                         
-                        <span class="card-title">k210</span>
+                        <span class="card-title">MATLABscara机器人</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            k210笔记-开发环境搭建
-                        
-                    </div>
-                    <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-06-29
-                        </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/k210/" class="post-category">
-                                    k210
-                                </a>
-                            
-                            
-                        </span>
-                    </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/k210/">
-                        <span class="chip bg-color">k210</span>
-                    </a>
-                    
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="far fa-dot-circle"></i>
-            </div>
-            <div class="card">
-                <a href="/2020/05/11/fa-guang-er-ji-guan-pi-pei-dian-zu-wen-ti/">
-                    <div class="card-image">
-                        
-                        
-                        <img src="/medias/featureimages/16.jpg" class="responsive-img" alt="发光二极管匹配电阻问题">
-                        
-                        <span class="card-title">发光二极管匹配电阻问题</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            发光二极管匹配电阻计算
+                            文章摘要内容
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-05-11
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-07-16
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E7%94%B5%E8%B7%AF/" class="post-category">
-                                    电路
+                            <a href="/categories/MATLAB/" class="post-category">
+                                    MATLAB
                                 </a>
                             
                             
@@ -1053,12 +1069,57 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E7%94%B5%E8%B7%AF%E5%B0%8F%E7%9F%A5%E8%AF%86/">
-                        <span class="chip bg-color">电路小知识</span>
+                    <a href="/tags/scara%E6%9C%BA%E5%99%A8%E4%BA%BA/">
+                        <span class="chip bg-color">scara机器人</span>
                     </a>
                     
-                    <a href="/tags/LED/">
-                        <span class="chip bg-color">LED</span>
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2020/07/05/chang-yong-huan-suan/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/13.jpg" class="responsive-img" alt="常用换算">
+                        
+                        <span class="card-title">常用换算</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            单位换算
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-07-05
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E5%B0%8F%E7%9F%A5%E8%AF%86/" class="post-category">
+                                    小知识
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E5%8D%95%E4%BD%8D%E6%8D%A2%E7%AE%97/">
+                        <span class="chip bg-color">单位换算</span>
                     </a>
                     
                 </div>
